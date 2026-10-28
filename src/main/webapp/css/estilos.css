@@ -1,0 +1,127 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 22/10/2026, 7:14:11 p. m.
+    Author     : helen
+*/
+
+
+/*Login*/
+
+body {
+    margin: 0;
+    background-color: cadetblue;
+   
+  font-family: 'Critter', sans-serif;
+  font-weight: 800;
+  height: 600px;
+  text-align: center;
+
+}
+
+.inicio-sesion{
+    font-size: 30px;
+    font-family: "Lato";
+     letter-spacing: 8px;       
+    text-transform: uppercase;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+.mi-label{
+    position: relative;
+    left: 100px;
+    color: blue;
+}
+
+.contenedor {
+    display: flex;
+    transform: translate(800px, 50px); 
+    /*justify-content: center;  /* centra horizontalmente */
+    /*align-items: center;  */    /* centra verticalmente */
+    height: 100vh;            /* alto de toda la pantalla */
+}
+
+.campo {
+  margin-bottom: 20px; /* espacio entre un campo y el siguiente */
+}
+
+
+
+.cuadrado{
+    
+    width: 400px;
+    min-height: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: skyblue;
+    border-radius: 15px;
+}
+.rectangulo{
+    width: 600px;
+    height: 100px;
+    background-color: skyblue;
+}
+
+.ladorectangulo{
+    display: flex;
+    height: 200px;
+}
+
+
+
+
+.pagina {
+    display: flex;
+    height: 100vh;
+}
+
+.lado-imagen {
+    flex: 1;                  
+}
+
+.lado-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;        
+    object-position: center;
+}
+
+.lado-formulario {
+    flex: 1;                
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+
+.login-form {
+  padding-top: 50px; 
+}
+
+.btn-enviar {
+  margin-top: 15px;
+  padding: 10px 35px;
+  background-color: #4a86c5; 
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+
+/*Inicio*/
+
+.centrar{
+  position: absolute;
+  top: 10px;  
+  left: 15px;
+    
+}
