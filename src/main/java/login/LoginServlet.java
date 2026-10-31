@@ -38,7 +38,7 @@ public class LoginServlet extends HttpServlet {
         String base = request.getContextPath();
         switch (u.getTipo().toLowerCase()) {
             case "admin" -> response.sendRedirect(base + "/admin/inicio.jsp");
-            case "doctor" -> response.sendRedirect(base + "/doctor/inicio.jsp");
+            case "doctor" -> response.sendRedirect(base + "/medico/inicio.jsp");
             case "user" -> response.sendRedirect(base + "/user/inicio.jsp");
             default -> {
                 session.invalidate();
