@@ -1,0 +1,77 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 29/10/2026, 11:00:31 p. m.
+    Author     : helen
+*/
+
+label {
+     display: block;        
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 5px;    
+  cursor: pointer;   
+  margin: 0 auto;
+  
+}
+
+input{
+    margin: 0 auto;
+}
+.causa{
+    width:250px;
+    height: 150px;
+}
+
+.cuadrado{
+    
+    width: 400px;
+    min-height: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: skyblue;
+    border-radius: 15px;
+    margin: 0 auto;
+    
+}
+
+.btn-generar {
+    /* Colores normales */
+    --bs-btn-color: #ffffff;              
+    --bs-btn-bg: #4a86c5;                 
+    --bs-btn-border-color: #4a86c5;       
+
+    /* Al pasar el cursor */
+    --bs-btn-hover-color: #ffffff;
+    --bs-btn-hover-bg: #2f5f94;
+    --bs-btn-hover-border-color: #2f5f94;
+
+    /* Al hacer clic */
+    --bs-btn-active-bg: #264f7d;
+    --bs-btn-active-border-color: #264f7d;
+
+    /* Forma y tamaño */
+    --bs-btn-padding-x: 4.5rem;           /* ancho interno */
+    --bs-btn-padding-y: 2.6rem;           /* alto interno */
+    --bs-btn-font-size: 1rem;
+    --bs-btn-font-weight: 600;
+    --bs-btn-border-radius: 50rem;        /* muy redondeado */
+    font-size: 20px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;   /* centra el texto en X */
+    align-items: center;       /* centra el texto en Y */
+    width: 200px;              /* mismo ancho para los dos */
+    height: 50px;
+    max-width: 100%;
+    padding: 0;                /* quita el padding de Bootstrap que descuadra el texto */
+    line-height: 1.2;          /* evita que el texto herede una altura de línea grande */
+    text-align: center;
+    margin: 0 auto;
+   
+    
+    transition: all 0.3s ease;
+}

@@ -1,0 +1,154 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 22/10/2026, 7:14:11 p. m.
+    Author     : helen
+*/
+
+
+/*Login*/
+
+body {
+    margin: 0;
+    background-color: cadetblue;
+   
+  font-family: 'Critter', sans-serif;
+  font-weight: 800;
+  height: 600px;
+  text-align: center;
+
+}
+
+.inicio-sesion{
+    font-size: 25px;
+    
+     letter-spacing: 8px;       
+    text-transform: uppercase;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+.mi-label{
+    position: relative;
+    left: 100px;
+    color: blue;
+}
+
+.contenedor {
+    display: flex;
+    transform: translate(800px, 50px); 
+    /*justify-content: center;  /* centra horizontalmente */
+    /*align-items: center;  */    /* centra verticalmente */
+    height: 100vh;            /* alto de toda la pantalla */
+}
+
+.campo {
+  margin-bottom: 20px; /* espacio entre un campo y el siguiente */
+}
+
+
+
+.cuadrado{
+    
+    width: 400px;
+    min-height: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: skyblue;
+    border-radius: 15px;
+}
+.rectangulo{
+    width: 600px;
+    height: 100px;
+    background-color: skyblue;
+}
+
+.ladorectangulo{
+    display: flex;
+    height: 200px;
+}
+
+
+
+
+.pagina {
+    display: flex;
+    height: 100vh;
+}
+
+.lado-imagen {
+    flex: 1;                  
+}
+
+.lado-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;        
+    object-position: center;
+}
+
+.lado-formulario {
+    flex: 1;                
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+
+.login-form {
+  padding-top: 50px; 
+}
+
+.btn-enviar {
+    --bg-color: #4a86c5;
+    --text-color: white;
+    --border-color: #4a86c5;
+
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 50rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    max-width: 100%;
+    margin: 0 auto;
+
+    padding: 0;
+    line-height: 1.3;
+    text-align: center;
+
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border: 2px solid var(--border-color);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+.btn-enviar:hover {
+    --bg-color: #2F5987;
+    --text-color: white;
+    --border-color: #2F5987;
+}
+
+.btn-enviar:active {
+    --bg-color: #CE5770;
+    --text-color: #FFFFFF;
+    --border-color: #CE5770;
+}
+
+
+/*Inicio*/
+
+.centrar{
+  position: absolute;
+  top: 10px;  
+  left: 15px;
+    
+}
